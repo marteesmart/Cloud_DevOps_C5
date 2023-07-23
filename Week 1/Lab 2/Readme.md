@@ -13,3 +13,10 @@ In this lab, you will perform simple git related activity
 Ensure that you complete the steps. Completion will be evaluated and attracts full scores.
 
 Best Wishes
+
+
+
+
+## Solution
+1. In your clone repository, use basic linux command to perform actions such as make directory, create file, edit files
+![image](https://i.ibb.co/1mBB6QR/lab-1.png></a>)
