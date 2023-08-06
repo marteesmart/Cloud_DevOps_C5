@@ -80,3 +80,66 @@ Search for a string in the file by pressing Esc, then typing /string and pressin
 Replace all occurrences of a string in the file by pressing Esc, then typing :%s/old_string/new_string/g and pressing Enter
 Go to a specific line number by pressing Esc, then typing :line_number and pressing Enter
 Split the window into multiple panes by pressing Ctrl + w followed by v or h to split vertically or horizontally, respectively. Navigate between panes using Ctrl + w followed by h, j, k, or l.
+
+
+
+## Solution
+
+### Ls command
+
+1. List all files in the current directory, including hidden files: `ls -a`
+![1](screenshots/1.PNG)
+
+2. List all files in the current directory, including hidden files, and show their file sizes: `ls -lh`
+![2](screenshots/2.PNG)
+
+3. List all files in the current directory sorted by modification time: `ls -lt`
+![3](screenshots/3.PNG)
+
+4. List only directories in the current directory: `ls -d */`
+![4](screenshots/4.PNG)
+
+5. List all files in the current directory, including hidden files, and display them in a long format with the owner's name: `ls -l --show-control-chars --group-directories-first --author`
+![5](screenshots/5.PNG)
+
+6. List all files in the current directory and its subdirectories: `ls -R`
+![6](screenshots/6.PNG)
+
+7. List all files in the curren t directory and its subdirectories, including hidden files: `ls -R -a`
+![7](screenshots/7.PNG)
+
+8. List all files in the current directory and its subdirectories, sorted by file size: `ls -R -S`
+![8](screenshots/8.PNG)
+
+9. List all files in the current directory and its subdirectories, showing their inode numbers: `ls -R -i`
+![9](screenshots/9.PNG)
+
+10. List all files in the current directory and its subdirectories, showing the file type and permissions: `ls -R -F`
+![10](screenshots/10.PNG)
+
+
+### Cp command
+1. Copy a file from one directory to another: `cp /path/to/source/file.txt /path/to/destination/`
+![1.1](screenshots/1.1.PNG)
+
+2. Copy multiple files at once: `cp file1.txt file2.txt file3.txt /path/to/destination/`
+![1.2](screenshots/1.2.PNG)
+
+3. Copy a directory and its contents: `cp -r /path/to/source/directory/ /path/to/destination/`
+![1.3](screenshots/1.3.PNG)
+
+4. Preserve the permissions of the original file when copying: `cp -p /path/to/source/file.txt /path/to/destination/`
+![1.4](screenshots/1.4.PNG)
+
+5. Overwrite an existing file without prompting: `cp -f /path/to/source/file.txt /path/to/destination/`
+![1.5](screenshots/1.5.PNG)
+
+6. Copy a file and create a backup of the original file: `cp -b /path/to/source/file.txt /path/to/destination/`
+![1.6](screenshots/1.6.PNG)
+
+7. Copy a file and update the modified and access times of the copy: `cp -p --preserve=timestamps /path/to/source/file.txt /path/to/destination/`
+![1.7](screenshots/1.7.PNG)
+
+8. Copy a file and show progress while copying: `cp -v /path/to/source/file.txt /path/to/destination/`
+![1.8](screenshots/1.8.PNG)
+

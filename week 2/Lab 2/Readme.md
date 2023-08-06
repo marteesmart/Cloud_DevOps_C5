@@ -18,3 +18,18 @@ Attached screenshoots in the lab submission repository.
 Guide
 
 https://docs.aws.amazon.com/polly/latest/dg/setup-aws-cli.html
+
+
+
+## Solution
+
+1. Create CLI User
+![CLI](screenshots/cli_user.PNG)
+
+2. Create Access key
+![AccessID](screenshots/security_access.PNG)
+
+3. Configure the AWS CLI with the credentials 
+![powershell](screenshots/powershell.jpg)
+
+

@@ -44,3 +44,54 @@ Submitting the assignment
 1. Take a screenshot of each completed step
 2. Attach the screenshot to an output directory
 3. Push the updated repository to your own git account
+
+
+
+## Solution
+
+### User Group
+1. EC2 support
+![EC2 support](screenshots/groups/EC2%20READ%20ONLY%20GROUP.PNG)
+
+
+2. S3 support 
+![S3 support](screenshots/groups/S3SUPPORT.PNG)
+
+
+3. EC2/SDK admin
+![EC2/SDK admin](screenshots/groups/EC2SDK.PNG)
+
+
+4. billingcontrol
+![billingcontrol](screenshots/groups/BILLINGCONTROL.PNG)
+
+
+5. billinguser
+![billinguser](screenshots/groups/BILLINGUSER.PNG)
+
+
+### Users
+![Users](screenshots/users/all%20users.PNG)
+
+
+### Test
+1. Adminstaff
+![Adminstaff](screenshots/design%20test/adminstaff_create%20instance.PNG)
+
+
+2. Techstaff
+![Techstaff](screenshots/design%20test/techstaff-create%20bucket.PNG)
+
+
+3. ITexpert
+![ITexpert](screenshots/design%20test/ITexpert-createEC2.PNG)
+
+
+4. financialmanager
+![financemanager](screenshots/design%20test/financemanager-billingaccess.PNG)
+
+
+5. financeuser
+![financeuser](screenshots/design%20test/financeuser-billing.PNG)
+
+
