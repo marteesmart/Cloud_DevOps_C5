@@ -24,3 +24,21 @@ The following documentation will help in achieving the learning objectives
 
  1. Include a screenshot of accomplishment of each task in your push file
  2. Document the steps and experience in a document (.doc type) and push
+
+
+## Solution
+1. Create a bucket in Amazon S3  
+![s3](screenshots/7.3.1.PNG)  
+
+2. Configure the bucket for static website hosting.  
+![static](screenshots/7.3.2.PNG)    
+
+3. Upload website content to S3  
+![website](screenshots/7.3.3.PNG)  
+
+4. Enable access to object using the bucket policy option  
+![access](screenshots/7.3.4.PNG)  
+
+5. Edit the home page (i.e the index.html) and use your name  
+![homepage](screenshots/7.3.5.PNG)  
+
