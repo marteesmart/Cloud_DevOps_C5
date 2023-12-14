@@ -1,7 +1,7 @@
 # Build and Deploy a-node-js-and-react-app-with-npm 
 
 # Aim
-running Jenkins as a Docker container
+Running Jenkins as a Docker container
 
 This tutorial will take about 20-40 minutes if followed through diligently.
 
