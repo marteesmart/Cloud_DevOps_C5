@@ -1,7 +1,7 @@
 # Building a CI/CD Pipeline in Jenkins
 
 # Aim
-
+Pipeline To Deploy The Web Application Into The Tomcat Server
 
 # Task
 1. Login into your Jenkins account. 
