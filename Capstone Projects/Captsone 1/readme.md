@@ -20,3 +20,15 @@ Read more via: https://docs.aws.amazon.com/AmazonS3/latest/userguide/add-bucket-
 12. Perform clean up operations.
 
 Good Luck!
+
+
+## Solution:    
+
+1. S3 arn   
+![s3_arn](images/i..PNG)    
+
+2. Cloudfront DNS
+![cloudfront_DNS](images/ii..PNG)   
+
+3. Successful upload of files to s3 bucket
+![s3_files](images/iii..PNG)  
